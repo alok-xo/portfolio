@@ -1,0 +1,152 @@
+.home {
+    width: 100%;
+    align-items: center;
+}
+
+.about {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: rgb(112, 161, 255);
+
+}
+
+.about h2 {
+    /* name */
+    font-size: 68px;
+    height: 50px;
+}
+
+.about .prompt {
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.prompt svg {
+    font-size: 60px;
+    margin: 5px;
+}
+
+.skills {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 20px;
+    margin-top: 100px;
+    margin-bottom: -200px;
+}
+
+.skills h1 {
+    color: blue;
+    text-align: center;
+    align-items: center;
+    width: 100px;
+}
+
+.skills .list {
+    list-style: none;
+    width: 60%;
+}
+
+.list span {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .about h2 {
+        font-size: 30px;
+    }
+
+    .about .prompt {
+        margin-top: 10px;
+        font-size: 20px;
+        width: 80%;
+        margin-left: 37px;
+    }
+
+    .skills {
+        text-align: center;
+
+    }
+
+    .list {
+        padding: 0;
+    }
+
+    .skills h2 {
+        font-size: 30px;
+    }
+
+    .skills h1 {
+        margin-left: -25px;
+    }
+
+    .course li {
+        margin-bottom: 10px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.skills h1:hover {
+    transition: 1s;
+    color: gray;
+
+}
+
+/* new */
+li {
+    list-style: none;
+}
+
+.course li {
+    display: inline-block;
+}
+
+.course ol {
+    margin-left: -45px;
+}
+
+.course li {
+    transition: .3s ease;
+    margin-left: 10px;
+}
+
+.course li:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: .3s ease;
+}
+
+.course {
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+.home a:hover {
+    color: #1a1a1a;
+}
+
+.cvbtn a {
+    background: black;
+    color: #fff;
+    width: 10%;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    border: none;
+}

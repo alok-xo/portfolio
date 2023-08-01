@@ -1,0 +1,82 @@
+.project1 {
+    display: flex;
+    padding: 2.5rem;
+}
+
+.project1,
+.para1 {
+    text-align: start;
+    line-height: 1rem;
+}
+
+.para1 p {
+    margin-left: 2rem;
+    margin-top: 2.5rem;
+}
+
+.imagediv span {
+    display: flex;
+    justify-content: center;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+@media only screen and (max-width: 600px) {
+    .project1 {
+        padding: .5rem;
+    }
+
+    .project1,
+    .para1 {
+        padding-right: 0.5rem;
+
+    }
+
+    .project1 img {
+        margin-top: 4.8rem;
+    }
+
+    .para1 p {
+        text-align: justify;
+    }
+
+    .pdes {
+        display: flex;
+        text-align: justify;
+        padding-left: 6rem;
+    }
+
+    .project-2 img {
+        margin-top: -5rem;
+    }
+}
+
+.project-2 {
+    margin-top: 8rem;
+    margin-left: -10rem;
+}
+
+.project-2 a {
+    display: flex;
+    justify-content: center;
+    width: 8rem;
+}
+
+.project1 img {
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    transition: .5s;
+}
+
+.project1 img:hover {
+    filter: brightness(80%);
+}
+
+.pdes {
+    margin-top: -6.5rem;
+    display: flex;
+    padding-left: 10rem;
+}
