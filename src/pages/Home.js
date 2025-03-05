@@ -25,7 +25,7 @@ function Home() {
         <h2>Hi, My Name is Rajani kant</h2>
         <div className="prompt">
           <p>
-            A fresher software developer with a passion for learning and
+            A software developer with a passion for learning and
             creating.
           </p> 
           <a href="https://www.linkedin.com/in/rajani-kant-2607ba246/"><LinkedIn /></a>
